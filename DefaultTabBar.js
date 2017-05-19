@@ -36,7 +36,6 @@ const DefaultTabBar = React.createClass({
   renderTab(name, page, isTabActive, onPressHandler) {
     const { activeTextColor, inactiveTextColor, textStyle, } = this.props;
     const textColor = isTabActive ? activeTextColor : inactiveTextColor;
-    const fontWeight = isTabActive ? 'bold' : 'normal';
 
     return <Button
       style={styles.flexOne}
@@ -47,7 +46,7 @@ const DefaultTabBar = React.createClass({
       onPress={() => onPressHandler(page)}
     >
       <View style={[styles.tab, this.props.tabStyle, ]}>
-        <Text style={[{color: textColor, fontWeight, }, textStyle, ]}>
+        <Text style={[{color: textColor, }, textStyle, ]}>
           {name}
         </Text>
       </View>
@@ -92,14 +91,14 @@ const styles = StyleSheet.create({
     flex: 1,
   },
   tabs: {
-    height: 50,
+    height: 48,
     flexDirection: 'row',
     justifyContent: 'space-around',
     borderWidth: 1,
     borderTopWidth: 0,
     borderLeftWidth: 0,
     borderRightWidth: 0,
-    borderColor: '#ccc',
+    borderColor: '#4d4d4d',
   },
 });
 
