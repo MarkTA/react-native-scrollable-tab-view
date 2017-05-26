@@ -94,11 +94,6 @@ const styles = StyleSheet.create({
     height: 48,
     flexDirection: 'row',
     justifyContent: 'space-around',
-    borderWidth: 1,
-    borderTopWidth: 0,
-    borderLeftWidth: 0,
-    borderRightWidth: 0,
-    borderColor: '#4d4d4d',
   },
 });
 
