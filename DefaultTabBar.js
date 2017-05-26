@@ -90,7 +90,8 @@ const styles = StyleSheet.create({
     flex: 1,
   },
   tabs: {
-    height: 48,
+    height: 44,
+    marginTop: 4,
     flexDirection: 'row',
     justifyContent: 'space-around',
   },

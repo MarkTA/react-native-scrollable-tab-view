@@ -221,11 +221,10 @@ module.exports = ScrollableTabBar;
 
 const styles = StyleSheet.create({
   tab: {
-    height: 48,
+    height: 44,
+    marginTop: 4,
     alignItems: 'center',
     justifyContent: 'center',
-    paddingLeft: 20,
-    paddingRight: 20,
   },
   container: {
     height: 48
