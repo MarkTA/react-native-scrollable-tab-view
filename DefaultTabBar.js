@@ -85,13 +85,13 @@ const styles = StyleSheet.create({
     flex: 1,
     alignItems: 'center',
     justifyContent: 'center',
+    paddingHorizontal: 13
   },
   flexOne: {
     flex: 1,
   },
   tabs: {
-    height: 44,
-    marginTop: 4,
+    height: 48,
     flexDirection: 'row',
     justifyContent: 'space-around',
   },
